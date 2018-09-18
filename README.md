@@ -29,6 +29,13 @@ if you have different user, make sure you have that user inside `visudo`then run
 ansible-playbook -u yourusername -i hosts install-jenkins.yml
 ```
 
+## First login to Jenkins Server 
+```
+cat password/AdmPassword_yourserverip
+# 478a08c7d92948cdaff26a080cca0ea7
+http://yourserverip:8080/
+```
+
 Thank you for using my playbooks 😃
 
 
