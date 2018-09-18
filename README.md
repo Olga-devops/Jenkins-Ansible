@@ -29,6 +29,6 @@ if you have different user, make sure you have that user inside `visudo`then run
 ansible-playbook -u yourusername -i hosts install-jenkins.yml
 ```
 
-
+Thank you for using my playbooks 😃
 
 
