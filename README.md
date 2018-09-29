@@ -14,7 +14,7 @@ cd Jenkins-Ansible
 This step will create a droplet on DigitalOcean. Make sure you have already token from DigitalOcean. If you don't know how to get follow  the [link](https://www.digitalocean.com/community/tutorials/how-to-create-a-digitalocean-space-and-api-key). 
 If you have already installed remote machine skip these two command:
 ``` 
-source VENV/bin/activate # activate Virtual ENV
+pip install -r  requirements.txt
 python createDroplet.py
 ```
 
