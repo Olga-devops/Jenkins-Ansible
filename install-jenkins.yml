@@ -1,5 +1,5 @@
 --- # Author Sadykov Farkhod
--  hosts: all           
+-  hosts: all
    become: yes
    become_method: sudo
    connection: ssh
@@ -19,6 +19,10 @@
        rpm_key:
          state: present
          key: https://jenkins-ci.org/redhat/jenkins-ci.org.key
+       become: yes
+
+     - name: Install Git on Jenkins Server
+       yum: name=git state=present
        become: yes
 
      - name: Installing Jenkins on remote System
